@@ -43,7 +43,7 @@ This project is designed to be completed in the following steps:
 
 Feel free to modify and extend the notebook to explore further aspects of the data and experiment with different algorithms. Good luck.
 
-## :bulb: Interesting Ideas
+## :bulb: Interesting Findings
 1. **Data Imbalance**
 In the facial expression dataset, a significant imbalance exists in the distribution of emotions. The dataset consists of the following counts for each emotion category:
 ![background](./materials/Capture.PNG)
