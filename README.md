@@ -45,6 +45,7 @@ Feel free to modify and extend the notebook to explore further aspects of the da
 
 ## :bulb: Interesting Findings
 1. **Data Imbalance**
+   
 In the facial expression dataset, a significant imbalance exists in the distribution of emotions. The dataset consists of the following counts for each emotion category:
 ![background](./materials/Capture.PNG)
 With this imbalance, the model might become biased towards the more prevalent classes like "Happy" (8989 images) and "Neutral" (6198 images) while underperforming on the minority class "Disgust" (only 547 images).
@@ -57,6 +58,7 @@ To ensure that the model pays adequate attention to underrepresented emotions an
 By applying these techniques, we can build more reliable emotion classification models that can generalizing across diverse emotional expressions better.
 
 2. **Cultural Difference**
+   
 People from different parts of the world show their feelings on their faces in different ways. For example, people from Western countries like the United States or Europe use different muscles in their faces to show emotions like happiness, sadness, and anger very clearly. But people from East Asian countries, like China or Japan, might not show these feelings as clearly, and sometimes their facial expressions for different emotions look more similar to each other. The below picture shows how different the same emotion categories look like between Chinese and Caucasian:
 ![background](./materials/9-Figure1-1.png)
 In addition, bone structure or size of face can also be a factor that affects the model's performance on face emotion detection. This means that if we train the model on a dataset of Western faces, it wouldn't give the best results when being applied on Asian faces; generally speaking, it might work better for people from some places than others because of these differences.
